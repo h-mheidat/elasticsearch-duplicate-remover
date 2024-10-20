@@ -1,0 +1,23 @@
+{
+  "name": "elasticsearch-duplicate-remover",
+  "version": "1.0.0",
+  "description": "elasticsearch-duplicate-remover",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-mheidat/elasticsearch-duplicate-remover.git"
+  },
+  "author": "h-mheidat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h-mheidat/elasticsearch-duplicate-remover/issues"
+  },
+  "homepage": "https://github.com/h-mheidat/elasticsearch-duplicate-remover#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.15.1",
+    "dotenv": "^16.4.5"
+  }
+}

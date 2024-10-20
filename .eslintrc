@@ -1,0 +1,15 @@
+{
+  "extends": [ "eslint-config-airbnb-base" ],
+  "env": {
+    "jest": true,
+  },
+  "rules": {
+    "arrow-body-style": 1,
+    "camelcase": 1,
+    "class-methods-use-this": 1,
+    "no-bitwise": 1,
+    "no-plusplus": 1,
+    "no-underscore-dangle": 1,
+    "prefer-destructuring": 1
+  }
+}
