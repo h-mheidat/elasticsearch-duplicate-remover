@@ -14,7 +14,9 @@ async function findDuplicates(index) {
       aggs: {
         duplicate_databaseIds: {
           terms: {
-            field: 'databaseId'
+            field: 'databaseId',
+            size: 1000000,
+            min_doc_count: 2
           },
         },
       },
